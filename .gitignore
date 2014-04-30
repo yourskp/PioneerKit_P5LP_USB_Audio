@@ -213,3 +213,25 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#ignore temp files
+**/codegentemp/
+**/DP8051_Keil_951/*.*
+**/ARM_GCC_473/*.*
+**/Generated_Source/PSoC5/*.*
+!**/Generated_Source/USBFS_Audio.c
+!**/Generated_Source/USBFS_episr.c
+**/Generated_Source/PSoC5/*.inc
+**/Generated_Source/PSoC5/*.hex
+**/Generated_Source/PSoC5/*.a51
+*.cycdx
+*.cyfit
+*.svd
+*.uvopt
+*.html
+*.rpt
+
+*.uvproj
+PioneerKit_P5LP_USB_Audio.cydsn/Generated_Source/PSoCCreatorExportIDE.xml
+PioneerKit_P5LP_USB_Audio.cydsn/PioneerKit_P5LP_USB_Audio.cyprj.kris
+PioneerKit_P5LP_USB_Audio.cywrk.kris
